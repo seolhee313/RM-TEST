@@ -1,5 +1,5 @@
-// section14
-#section14 {
+// section3
+#section3 {
   width: 100%;
   height: 120vh;
   background-color: #E0E3E7;
@@ -39,11 +39,10 @@
         left: 2%;
         width: 18vw;
         height: 18vw;
-        background-image: url(../../images/section14/seolhee01.png);
+        background-image: url(../../images/section3/seolhee01.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        // filter: brightness(80%);
         transition: filter 0.3s ease;
         cursor: pointer;
 
@@ -74,11 +73,10 @@
         left: 18.7%;
         width: 18vw;
         height: 18vw;
-        background-image: url(../../images/section14/seolhee02.png);
+        background-image: url(../../images/section3/seolhee02.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        // filter: brightness(80%);
         transition: filter 0.3s ease;
         cursor: pointer;
 
@@ -105,11 +103,10 @@
         left: 35.4%;
         width: 18vw;
         height: 18vw;
-        background-image: url(../../images/section14/seolhee03.png);
+        background-image: url(../../images/section3/seolhee03.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        // filter: brightness(80%);
         transition: filter 0.3s ease;
         cursor: pointer;
 
@@ -136,11 +133,10 @@
         left: 2%;
         width: 18vw;
         height: 18vw;
-        background-image: url(../../images/section14/seolhee04.png);
+        background-image: url(../../images/section3/seolhee04.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        // filter: brightness(80%);
         transition: filter 0.3s ease;
         cursor: pointer;
 
@@ -167,11 +163,10 @@
         left: 18.7%;
         width: 18vw;
         height: 18vw;
-        background-image: url(../../images/section14/seolhee05.png);
+        background-image: url(../../images/section3/seolhee05.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
-        // filter: brightness(80%);
         transition: filter 0.3s ease;
         cursor: pointer;
 
@@ -366,7 +361,7 @@
   }
 }
 
-#section14 .section__inner .left > div.active span {
+#section3 .section__inner .left > div.active span {
   color: #C7FF61;
   filter: brightness(100%);
 }
@@ -394,7 +389,7 @@
 }
 
 @media (max-width: 1600px){
-  #section14 {
+  #section3 {
     .section__inner {
       .left {
         .img1 {
@@ -446,7 +441,7 @@
 }
 
 @media (max-width: 1400px){
-  #section14 {
+  #section3 {
     .section__inner {
       .left {
         .img1 {
@@ -545,7 +540,7 @@
 }
 
 @media (max-width: 1000px){
-  #section14 {
+  #section3 {
     .section__inner {
       .left {
         .img1 {
@@ -662,7 +657,7 @@
 }
 
 @media (max-width: 800px){
-  #section14 {
+  #section3 {
     .section__inner {
       .left {
         .img1 {
@@ -796,7 +791,7 @@
 }
 
 @media (max-width: 450px){
-  #section14 {
+  #section3 {
 
     .header {
       span {

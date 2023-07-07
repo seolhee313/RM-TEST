@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 const About = () => {
   useEffect(() => {
-    const imgElements = document.querySelectorAll('#section14 .left > div');
+    const imgElements = document.querySelectorAll('#section3 .left > div');
 
     imgElements.forEach(element => {
       element.addEventListener('click', function () {
@@ -40,7 +40,7 @@ const About = () => {
   }, []);
 
   return (
-    <section id="section14">
+    <section id="section3">
       <div className="header">
         <span>INTRODUCE</span>
         <span>MY SELF</span>

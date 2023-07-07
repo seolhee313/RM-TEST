@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
-import ScrollTrigger from 'gsap/dist/ScrollTrigger';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 
 function Intro() {
   useEffect(() => {
@@ -48,7 +48,7 @@ function Intro() {
     createScrollTrigger('.imgText', 'top 30%', animate);
     createScrollTrigger('.imgText .text ul li', 'top 90%', animate);
 
-    // line animation
+    // line 타임라인
     const section2TL = gsap.timeline();
 
     section2TL.fromTo(
